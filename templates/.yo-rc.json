@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "am.iravaban.templates"
+    },
+    "jhipsterVersion": "6.8.0",
+    "applicationType": "microservice",
+    "baseName": "templateService",
+    "packageName": "am.iravaban.templates",
+    "packageFolder": "am/iravaban/templates",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MzU0NGY3OGU3NWUwNmFmNTY1ZTljOGE2OGYwMGIwN2Y0YzUwOGRjMmM3NTM2MTNmZWY4Y2U2Y2RlMTdiMzhmZGQxNTk5MjU0ZmI1NTk0NmYwZTJkMjcxOGM2YjA5ZDM4MDQwZmE0NjRlZjdmYzg3ZjliODFkZTMyODM4MjQzN2Q=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1588355277521,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
