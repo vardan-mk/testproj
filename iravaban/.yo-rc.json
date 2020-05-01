@@ -1,0 +1,41 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "am.iravaban.gatewayapp",
+      "microservicePath": "../templates"
+    },
+    "jhipsterVersion": "6.8.0",
+    "applicationType": "gateway",
+    "baseName": "gatewayApp",
+    "packageName": "am.iravaban.gatewayapp",
+    "packageFolder": "am/iravaban/gatewayapp",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "YTA4YTJmNmI1ZmI0ZDIzNjYwYzA2ZDIyYjIxYzgyMThhZTg0NzBmMjViNTc5ZjBmOTMxNjAyMmVlYWFhMjI1ZmE1ZjRkNzZiZjYxZjE3YmQ1YmNmMTc0Yzg0MzRkMTc3Y2E3MDcwYWQ3NDc4NGJmZWU4NmYzYzg0Y2MzZmU5NTU=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "journal",
+    "clientThemeVariant": "primary",
+    "creationTimestamp": 1588354898107,
+    "testFrameworks": ["cucumber"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "blueprints": []
+  }
+}

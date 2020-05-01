@@ -40,6 +40,7 @@ public class CacheConfiguration {
     @Bean
     public JCacheManagerCustomizer cacheManagerCustomizer() {
         return cm -> {
+            createCache(cm, am.iravaban.templates.domain.Template.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
